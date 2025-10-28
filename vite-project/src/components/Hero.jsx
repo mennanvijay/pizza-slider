@@ -12,7 +12,6 @@ const pizza = [
         rightStyle: { width: "580px", height: "550px", top: "-30px", right: "-100px", rotate: 12 },
         title: "Classic Pepperoni Pizza",
         description: "A timeless favorite with crispy pepperoni,  mozzarella, and a rich tomato base. Perfectly baked with a hint of spice and irresistible flavor in every slice.",
-        // background: "radial-gradient(circle at center, #cc5500 0%, #000000 80%)"
         background: "radial-gradient(circle at center, #00000 0%, #00000 20%, #000000 100%)"
 
       },
@@ -26,7 +25,6 @@ const pizza = [
         leftStyle: { width: "680px", height: "490px", top: "10px", left: "-190px", rotate: -15 },
         rightStyle: { width: "680px", height: "580px", top: "-60px", right: "-190px", rotate: -120 },
         description: "Fresh spinach layered over a rich tomato base, topped with creamy mozzarella and herbs for a wholesome, earthy flavor in every bite.",
-        // background: "radial-gradient(circle at center, #2e5339 0%, #1d3928 55%, #0b1a11 100%)"
         background: "radial-gradient(circle at center, #00000 0%, #00000 20%, #000000 100%)"
 
       },
@@ -40,7 +38,6 @@ const pizza = [
         leftStyle: { width: "600px", height: "550px", top: "-100px", left: "-100px", rotate: -15 },
         rightStyle: { width: "600px", height: "520px", top: "-100px", right: "-170px", rotate: 12 },
         description: "Smoky marinated paneer cubes baked with onions, peppers, and melted cheese on a spiced tomato base. A bold fusion of Indian flavors and classic  goodness.",
-        // background: "radial-gradient(circle at center, #8b1e14 0%, #3d0d09 60%, #000000 100%)"
         background: "radial-gradient(circle at center, #00000 0%, #00000 20%, #000000 100%)"
 
       },
@@ -54,7 +51,6 @@ const pizza = [
         leftStyle: { width: "550px", height: "520px", top: "-80px", left: "-120px", rotate: -15 },
         rightStyle: { width: "550px", height: "520px", top: "-70px", right: "-90px", rotate: 12 },
         description: "Fresh mozzarella, vibrant tomato sauce, and aromatic basil on a perfectly baked crust. A timeless classic that captures the essence of Italian pizza.",
-        // background: "radial-gradient(circle at center, #8b5a2b 0%, #4b2e1f 55%, #1a0f0a 100%)"
         background: "radial-gradient(circle at center, #00000 0%, #00000 20%, #000000 100%)"
 
       }
@@ -69,7 +65,6 @@ const pizza = [
         leftStyle: { width: "590px", height: "500px", top: "-20px", left: "-120px", rotate: -15 },
         rightStyle: { width: "590px", height: "500px", top: "-20px", right: "-170px", rotate: 12 },
         description: "A colorful medley of fresh vegetables layered over a rich tomato base, topped with melted cheese and  herbs. A wholesome, flavorful bite in every slice.",
-        // background: "radial-gradient(circle at center, #2e5339 0%, #1d3928 35%, #0b1a11 100%)"
         background: "radial-gradient(circle at center, #00000 0%, #00000 20%, #000000 100%)"
 
       }
@@ -84,7 +79,6 @@ const pizza = [
         leftStyle: { width: "650px", height: "500px", top: "20px", left: "-160px", rotate: -70 },
         rightStyle: { width: "650px", height: "500px", top: "20px", right: "-160px", rotate: -22 },
         description: "Tender BBQ chicken pieces with caramelized onions, melted cheese, and smoky sauce on a perfectly baked crust. A bold, savory pizza with a rich, flavorful bite.",
-        // background: "radial-gradient(circle at center, #8b3e1c 0%, #4a1f0f 40%, #0b0b0b 100%)"
         background: "radial-gradient(circle at center, #00000 0%, #00000 20%, #000000 100%)"
 
       }
@@ -98,7 +92,6 @@ const pizza = [
         leftStyle: { width: "500px", height: "450px", top: "20px", left: "-80px", rotate: -30 },
         rightStyle: { width: "500px", height: "450px", top: "-20px", right: "-80px", rotate: 12 },
         description: "Sweet pineapple chunks paired with savory ham, melted cheese, and a rich tomato base. A tropical twist that balances sweetness and flavor in every bite.",
-        // background: "radial-gradient(circle at center, #c96f2c 0%, #5a2e16 45%, #0b0b0b 100%)"
         background: "radial-gradient(circle at center, #00000 0%, #00000 20%, #000000 100%)"
 
       }
@@ -182,7 +175,6 @@ const Hero = () => {
 
 
       <div className="hero-content">
-        {/* Dynamic Text */}
         <div className="hero-text">
           <motion.h1
             key={pizza[activeIndex].title}
@@ -204,7 +196,6 @@ const Hero = () => {
           </motion.p>
         </div>
 
-        {/* Circular Slider */}
         <div className="circular-slider">
           <div className="circle outer-circle">
             <div className="circle inner-circle">

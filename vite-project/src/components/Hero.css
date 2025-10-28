@@ -53,14 +53,14 @@
     top: -200px;
   }
   .hero-text h1 {
-    font-family: 'Dancing Script', cursive; /* Or 'Great Vibes' */
+    font-family: 'Dancing Script', cursive; 
 
     font-size: 3.3rem;
     margin-bottom: 15px;
   }
   
   .hero-text p {
-    font-family: 'Dancing Script', cursive; /* Or 'Great Vibes' */
+    font-family: 'Dancing Script', cursive; 
     font-size: 1.7rem;
     line-height: 1.8;
     max-width: 600px;
@@ -71,8 +71,6 @@
   
   .circular-slider {
     position: relative;
-    /* width: 400px;
-    height: 400px; */
     top: -19px;
     display: flex;
     align-items: center;
@@ -135,7 +133,7 @@ top: -210px;
     position: absolute;
     top: 300px;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.1); /* translucent */
+    background: rgba(255, 255, 255, 0.1); 
     border: 1px solid white;
     color: white;
     font-size: 2rem;
@@ -166,7 +164,7 @@ top: -210px;
     height: 20px;
     background: white;
     border-radius: 50%;
-    transform-origin: 0 0; /* rotate around center */
+    transform-origin: 0 0; 
     transition: transform 0.4s ease;
   }
   
