@@ -24,7 +24,7 @@ pipeline {
                     allowMissing: false,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
-                    reportDir: '.',
+                    reportDir: 'vite-project',
                     reportFiles: 'index.html',
                     reportName: 'Pizza Slider UI'
                 ])
